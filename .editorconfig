@@ -1,0 +1,12 @@
+root = true
+
+[*]
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.csproj]
+insert_final_newline = false
+
+[*.cs,*.js]
+indent_style = tab
+indent_size = 4
